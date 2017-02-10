@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enunciate
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://enunciate.webcohesion.com/schemas/enunciate-2.6.0.xsd">
+
+    <application root="172.20.250.52/"/>
+
+    <modules>
+        <jaxrs groupBy="class"/>
+        <swagger basePath="/" host="172.20.251.52:8084" docsSubdir="/docs">
+            <scheme>http</scheme>
+        </swagger>
+    </modules>
+</enunciate>
